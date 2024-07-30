@@ -21,14 +21,16 @@ namespace HelloWorld
 
             //Console.WriteLine(hasil);
 
-            string nama, asal;
+            string nama, asal, umur;
             Console.WriteLine("Masukan Nama : ");
             nama = Console.ReadLine();
             Console.WriteLine("Masukan asal : ");
             asal = Console.ReadLine();
-            Console.WriteLine();
+            Console.WriteLine("Masukan umur : ");
+            umur = Console.ReadLine();
 
             Console.WriteLine("Hallo {0} dari {1} Selamat datang di C#", nama,asal);
+
         }
     }
 }
